@@ -1,0 +1,543 @@
+{
+  "hero": {
+    "title": "Hébergement Premium<br /> Pour Vos Ambitions",
+    "description": "Des solutions d'hébergement haute performance pour vos projets. VPS, serveurs de jeux et hébergement web optimisés pour une expérience exceptionnelle.",
+    "buttons": {
+      "offers": "Voir les offres",
+      "contact": "Nous contactez"
+    }
+  },
+  "features": {
+    "infrastructure": {
+      "title": "Infrastructure Robuste",
+      "description": "Serveurs dernière génération avec une disponibilité garantie de 99.9%"
+    },
+    "ddos": {
+      "title": "Protection DDoS",
+      "description": "Protection anti-DDoS avancée incluse sur tous nos services"
+    },
+    "performance": {
+      "title": "Performance Garantie",
+      "description": "Ressources dédiées et optimisées pour une performance maximale"
+    }
+  },
+  "controlpanel": {
+    "game": {
+      "title": "Panel de Gestion de Jeu",
+      "description": "Description pour le panneau de gestion des jeux.",
+      "features": {
+        "interfaceModerne": {
+          "title": "Interface Moderne",
+          "description": "Dashboard intuitif avec statistiques en temps réel et gestion simplifiée"
+        },
+        "console": {
+          "title": "Console en Direct",
+          "description": "Accès direct à la console de votre serveur avec historique des commandes"
+        },
+        "configuration": {
+          "title": "Configuration Simple",
+          "description": "Modification des paramètres et des fichiers de configuration en quelques clics"
+        },
+        "multiJeux": {
+          "title": "Multi-Jeux",
+          "description": "Support de nombreux jeux avec installation automatisée"
+        }
+      }
+    },
+    "web": {
+      "title": "Panel de Gestion Web",
+      "description": "Solution complète pour gérer votre hébergement web.",
+      "features": {
+        "domaines": {
+          "title": "Gestion des Domaines",
+          "description": "Administration simplifiée de vos domaines et sous-domaines"
+        },
+        "basesDeDonnees": {
+          "title": "Bases de Données",
+          "description": "Création et gestion de vos bases MySQL avec phpMyAdmin"
+        },
+        "fichiers": {
+          "title": "Gestionnaire de Fichiers",
+          "description": "Interface web pour gérer vos fichiers et FTP intégré"
+        },
+        "securite": {
+          "title": "Sécurité Avancée",
+          "description": "SSL gratuit, pare-feu applicatif et protection contre les malwares"
+        }
+      }
+    }
+  },
+  "faq": {
+    "title": "Questions Fréquentes",
+    "subtitle": "Trouvez rapidement les réponses à vos questions",
+    "question1": "Qu'est-ce qu'est \"l'hébergement cloud\" ?",
+    "answer1": "L'hébergement cloud stocke et gère les données et applications sur des serveurs distants accessibles via Internet, offrant flexibilité et fiabilité grâce à des ressources ajustables dynamiquement et une redondance des données.",
+    "question2": "Pourquoi aurais-je besoin d'un hébergement ?",
+    "answer2": "Avec le développement d'Internet, il devient de plus en plus indispensable de numériser ses services. C'est là qu'on vous propose des services de qualité pour garantir la meilleure connectivité.",
+    "question3": "Comment choisir mon hébergeur ?",
+    "answer3": "Tenez compte de facteurs tels que l'emplacement du serveur, les performances, la stabilité, le support client et le prix lors du choix d'un fournisseur d'hébergement cloud.",
+    "question4": "Quels types de jeux puis-je héberger ?",
+    "answer4": "Vous pouvez héberger différents types de jeux, notamment des jeux de tir à la première personne, des jeux de rôle, des jeux de survie, des jeux de stratégie, et bien d'autres.",
+    "question5": "Quelle est la connexion des serveurs ?",
+    "answer5": "Si on effectue un speedtest, on obtient généralement autour des 800mbits/s.",
+    "question6": "Comment puis-je gérer mes serveurs ?",
+    "answer6": "Les serveurs de jeux sont contrôlés avec le panel open source Pterodactyl, les serveurs web sur Plesk et les VPS sur Proxmox.",
+    "question7": "Que dois-je faire après l'achat de mon serveur ?",
+    "answer7": "Une fois votre serveur acheté, vous recevrez toutes les informations pour vous connecter par e-mail.",
+    "question8": "Pourquoi JustMyHost ?",
+    "answer8": "JustMyHost garantit une infrastructure cloud robuste, évolutive et sécurisée, avec un support client 24/7.",
+    "question9": "Combien coûte un serveur ?",
+    "answer9": "Chez nous, les offres débutent à moins de 1€ !",
+    "question10": "Est-ce qu'il y a un support client 24h/7j ?",
+    "answer10": "Bien sûr, le support de JustMyHost est disponible 24h/24 et 7j/7."
+  },
+    "gameServers": {
+      "title": "Serveurs de Jeux",
+      "subtitle": "Des serveurs optimisés pour vos jeux préférés",
+      "button": "Configurer"
+    },
+  "infrastructure": {
+    "title": "Notre Infrastructure",
+    "subtitle": "Une infrastructure de pointe pour des performances optimales",
+    "imageAlt": "Centre de données",
+    "dataCenters": {
+      "title": "Data Centers Tier-III",
+      "description": "Infrastructure redondante et haute disponibilité"
+    },
+    "features": {
+      "enterpriseHardware": {
+        "title": "Matériel Enterprise",
+        "description": "Processeurs dernière génération, stockage NVMe et réseau 10Gbps"
+      },
+      "security": {
+        "title": "Sécurité Maximale",
+        "description": "Protection DDoS, firewall dédié et sauvegardes automatiques"
+      },
+      "optimizedNetwork": {
+        "title": "Réseau Optimisé",
+        "description": "Connexion multi-carriers et routage optimisé pour le gaming"
+      }
+    }
+  },
+
+  "vpsTable": {
+    "headers": {
+      "name": "Nom de l'offre",
+      "processor": "Processeur",
+      "ram": "RAM",
+      "storage": "Stockage",
+      "price": "Prix"
+    },
+    "priceSuffix": "/mois",
+    "actions": {
+      "order": "Commander"
+    }
+  },
+  "vpsFeatures": {
+    "distributions": {
+      "title": "Distributions Supportées",
+      "description": "Large choix de distributions Linux et Windows Server"
+    },
+    "panel": {
+      "title": "Panel de Gestion Intuitif",
+      "description": "Interface complète pour gérer votre VPS en toute simplicité",
+      "imageAlt": "Panel de gestion VPS",
+      "features": {
+        "intuitiveInterface": {
+          "title": "Interface Intuitive",
+          "description": "Dashboard moderne et intuitif pour une gestion simplifiée de votre infrastructure"
+        },
+        "webConsole": {
+          "title": "Console Web",
+          "description": "Accès direct à votre serveur via une console web sécurisée, sans logiciel supplémentaire"
+        },
+        "completeManagement": {
+          "title": "Gestion Complète",
+          "description": "Contrôle total sur votre VPS : redémarrage, réinstallation, sauvegardes et monitoring"
+        }
+      }
+    }
+  },
+  "layout": {
+    "brand": "JustMyHost",
+    "nav": {
+      "home": "Accueil",
+      "vps": "VPS",
+      "offers": "Offres",
+      "info": "Information",
+      "contact": "Contact",
+      "clientArea": "Espace Client"
+    },
+    "offers": {
+      "games": {
+        "title": "Serveurs de Jeux",
+        "subtitle": "Hébergement optimisé gaming"
+      },
+      "web": {
+        "title": "Hébergement Web",
+        "subtitle": "Solutions web complètes"
+      },
+      "all": {
+        "title": "Toutes nos offres",
+        "subtitle": "Découvrez nos services"
+      }
+    },
+    "vps": {
+      "kvm": {
+        "title": "VPS KVM",
+        "subtitle": "Virtualisation complète"
+      },
+      "lxc": {
+        "title": "VPS LXC",
+        "subtitle": "Conteneurs Linux optimisés"
+      }
+    },
+    "info": {
+      "docs": {
+        "title": "Documentation",
+        "subtitle": "Guides et tutoriels"
+      },
+      "partners": {
+        "title": "Partenaires",
+        "subtitle": "Nos partenaires technologiques"
+      },
+      "share": {
+        "title": "Partage",
+        "subtitle": "Service de partage de fichiers"
+      },
+      "status": {
+        "title": "Status",
+        "subtitle": "État de nos services"
+      }
+    },
+    "footer": {
+      "description": "Solutions d'hébergement professionnelles pour tous vos besoins.",
+      "services": "Services",
+      "vps": "VPS Cloud",
+      "games": "Serveurs de Jeux",
+      "web": "Hébergement Web",
+      "support": "Support",
+      "contact": "Contact",
+      "status": "Status des services",
+      "legal": "Légal",
+      "mentions": "Mentions légales",
+      "cgu": "CGU",
+      "cgv": "CGV",
+      "gdpr": "RGPD",
+      "rights": "Tous droits réservés."
+    }
+  },
+  "menu": {
+    "title": "Menu",
+    "home": "Accueil",
+    "vps": {
+      "label": "VPS",
+      "kvm": {
+        "title": "VPS KVM",
+        "description": "Virtualisation complète"
+      },
+      "lxc": {
+        "title": "VPS LXC",
+        "description": "Conteneurs Linux optimisés"
+      }
+    },
+    "offers": {
+      "label": "Offres",
+      "games": {
+        "title": "Serveurs de Jeux",
+        "description": "Hébergement optimisé gaming"
+      },
+      "web": {
+        "title": "Hébergement Web",
+        "description": "Solutions web complètes"
+      },
+      "all": {
+        "title": "Toutes nos offres",
+        "description": "Découvrez nos services"
+      }
+    },
+    "info": {
+      "label": "Information",
+      "docs": {
+        "title": "Documentation",
+        "description": "Guides et tutoriels"
+      },
+      "partners": {
+        "title": "Partenaires",
+        "description": "Nos partenaires technologiques"
+      },
+      "status": {
+        "title": "Status",
+        "description": "État de nos services"
+      }
+    },
+    "contact": "Contact",
+    "clientArea": "Espace Client"
+  },
+  "reviews": {
+    "title": "Avis Clients",
+    "subtitle": "Ce que nos clients disent de nous",
+    "roles": {
+      "vpsOwner": "Propriétaire de serveur VPS"
+    },
+    "contents": {
+      "review1": "Excellente expérience avec cet hébergeur cloud ! Le VPS est rapide, fiable et la performance est au rendez-vous. Service client réactif et efficace. Je recommande vivement pour ceux qui recherchent de la qualité.",
+      "review2": "Très bon hébergeur, ils répondent à chaque fois que j'ai besoin d'eux. Ils sont super et offrent un service client exceptionnel, toujours à l'écoute et réactif. De plus, leur plateforme est fiable et facile à utiliser, avec des fonctionnalités qui répondent parfaitement à mes besoins.",
+      "review3": "Service client très réactif et à l'écoute, ils m'ont aidé à finir ma configuration et tout fonctionne super ! Je recommande !"
+    }
+  },
+  "productCard": {
+    "title": "Nos Offres Populaires",
+    "subtitle": "Des solutions adaptées à tous vos besoins, à partir de 0.99€/mois",
+    "priceSuffix": "/mois",
+    "popularBadge": "Plus populaire",
+    "cta": "Voir plus"
+  },
+  "multiGaming01": {
+    "title": "Multi-Gaming - 01",
+    "subtitle": "Idéal pour débuter",
+    "features": {
+      "cpu": "2x Intel Xeon CPU E5-2667 v3 @3.60 GHz",
+      "memory": "3072 MB",
+      "storage": "10 GO",
+      "bandwidth": "1Gbps",
+      "ddos": "Anti-DDOS"
+    }
+  },
+  "vpsStarter": {
+    "title": "VPS Starter",
+    "subtitle": "Performance et flexibilité",
+    "features": {
+      "cpu": "2x Intel Xeon CPU E5-2667 v3 @3.60 GHz",
+      "memory": "4096 MB",
+      "storage": "64 GO",
+      "bandwidth": "1Gbps",
+      "ddos": "Anti-DDOS"
+    }
+  },
+  "webBasic": {
+    "title": "Web Basic",
+    "subtitle": "Hébergement web professionnel",
+    "features": {
+      "cpu": "Intel Xeon CPU E5-2667 v3 @3.60 GHz",
+      "bandwidth": "1Gbps",
+      "sites": "3 sites",
+      "subdomain": "1 sous-domaine",
+      "ddos": "Anti-DDOS"
+    }
+  },
+  "paymentMethods": {
+    "title": "Moyens de Paiement Acceptés",
+    "visaMastercard": "Visa/Mastercard",
+    "paypal": "PayPal",
+    "paysafecard": "Paysafecard",
+    "description": "Paiements sécurisés et traités instantanément pour une mise en service rapide de vos services"
+  },
+  "notFound": {
+    "message": "Oups ! La page que vous recherchez n'existe pas ou a été déplacée.",
+    "action": "Retournez à la page d'accueil ou contactez notre support si le problème persiste.",
+    "homeButton": "Retour à l'accueil",
+    "contactButton": "Contacter le support"
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "description": "Nous sommes là pour vous aider. Retrouvez-nous sur les réseaux sociaux ou contactez notre support technique.",
+    "supportFeatures": {
+      "expertSupport": {
+        "title": "Support Expert",
+        "description": "Une équipe dédiée à votre service"
+      },
+      "quickResponse": {
+        "title": "Réponse Rapide",
+        "description": "Temps de réponse moyen de 30 minutes"
+      },
+      "support247": {
+        "title": "Support 24/7",
+        "description": "Assistance technique disponible à tout moment"
+      }
+    },
+    "socialMediaTitle": "Nos Réseaux Sociaux",
+    "supportTitle": "Support Technique",
+    "supportDescription": "Besoin d'aide ? Créez un ticket dans votre espace client pour contacter notre équipe de support.",
+    "ticketButton": "Créer un ticket support"
+  },
+  "webOffers": {
+    "title": "Hébergement Web",
+    "subtitle": "Des solutions d'hébergement web performantes et sécurisées pour tous vos projets",
+    "table": {
+      "headers": {
+        "name": "Nom de l'offre",
+        "processor": "Processeur",
+        "ram": "RAM",
+        "storage": "Stockage",
+        "sites": "Sites Web",
+        "email": "Adresse Mail",
+        "price": "Prix"
+      },
+      "priceSuffix": "/mois",
+      "actions": {
+        "order": "Commander"
+      },
+      "sitesSuffix": "sites"
+    },
+    "offers": {
+      "Basic": "Web Basic",
+      "Premium": "Web Premium",
+      "Pro": "Web Pro"
+    }
+  },
+  "vps": {
+    "title": "Serveurs VPS",
+    "subtitle": "Des serveurs virtuels haute performance avec des ressources dédiées et une disponibilité garantie",
+    "kvm": {
+      "title": "VPS KVM",
+      "description": "Virtualisation KVM pour une isolation complète et des performances natives",
+      "features": {
+        "dedicatedResources": "Ressources dédiées",
+        "nativePerformance": "Performance native",
+        "totalIsolation": "Isolation totale",
+        "fullCustomization": "Personnalisation complète"
+      }
+    },
+    "lxc": {
+      "title": "VPS LXC",
+      "description": "Conteneurs Linux optimisés pour une efficacité maximale",
+      "features": {
+        "quickStartup": "Démarrage rapide",
+        "highDensity": "Haute densité",
+        "optimizedPerformance": "Performances optimisées",
+        "greatValue": "Excellent rapport qualité/prix"
+      }
+    },
+    "cta": "Voir les offres"
+  },
+  "games": {
+    "title": "Nos Offres de Serveurs de Jeux",
+    "subtitle": "Des solutions d'hébergement optimisées pour tous vos jeux préférés",
+    "subscription": {
+      "title": "Abonnement Flexible",
+      "description": "Notre service d'abonnement vous permet de changer de jeu à tout moment sans frais supplémentaires. Choisissez votre forfait et profitez d'une liberté totale pour basculer entre différents jeux selon vos envies, de manière automatique et instantanée.",
+      "features": [
+        "Changez de jeu quand vous voulez",
+        "Processus automatique et instantané",
+        "Aucun frais supplémentaire"
+      ]
+    },
+    "testOffer": {
+      "title": "Offre de test 24h",
+      "description": "Testez gratuitement notre service pendant 24 heures ! Découvrez nos performances et fonctionnalités sans aucun engagement. Parfait pour explorer nos solutions avant de vous abonner.",
+      "features": [
+        "Accès complet à toutes les fonctionnalités",
+        "Aucune carte de crédit requise",
+        "Arrêtez à tout moment sans frais"
+      ],
+      "button": "Activer l'Offre"
+    },
+    "table": {
+      "offer": "Offre",
+      "cpu": "CPU",
+      "ram": "RAM",
+      "storage": "Stockage",
+      "price": "Prix",
+      "button": "Commander"
+    }
+  },
+  "vpsLxc": {
+    "title": "VPS LXC",
+    "subtitle": "Des conteneurs Linux optimisés pour une efficacité maximale",
+    "backToOffers": "Retour aux offres VPS",
+    "features": {
+      "optimizedPerformance": {
+        "title": "Performance Optimisée",
+        "description": "Architecture conteneurisée pour une efficacité maximale"
+      },
+      "enhancedSecurity": {
+        "title": "Sécurité Renforcée",
+        "description": "Isolation complète entre les conteneurs"
+      },
+      "guaranteedResources": {
+        "title": "Ressources Garanties",
+        "description": "CPU, RAM et stockage dédiés"
+      }
+    }
+  },
+  "vpsKvm": {
+    "title": "VPS KVM",
+    "subtitle": "Virtualisation KVM pour une isolation complète et des performances natives",
+    "backToOffers": "Retour aux offres VPS",
+    "features": {
+      "fullVirtualization": {
+        "title": "Virtualisation Complète",
+        "description": "Performance native avec isolation totale"
+      },
+      "totalCustomization": {
+        "title": "Personnalisation Totale",
+        "description": "Contrôle complet sur votre environnement"
+      },
+      "nativePerformance": {
+        "title": "Performance Native",
+        "description": "Accès direct aux ressources matérielles"
+      }
+    }
+  },
+  "partners": {
+    "title": "Nos Partenaires",
+    "subtitle": "Des partenariats stratégiques pour vous offrir le meilleur de la technologie",
+    "intel": {
+      "description": "Partenaire technologique pour nos processeurs haute performance, optimisant la puissance de calcul de nos serveurs."
+    },
+    "amd": {
+      "description": "Fournisseur de processeurs EPYC pour nos serveurs de jeux, offrant des performances exceptionnelles."
+    },
+    "nvidia": {
+      "description": "Partenaire pour les solutions de calcul GPU et les technologies de virtualisation."
+    },
+    "cisco": {
+      "description": "Infrastructure réseau haute performance pour une connectivité optimale."
+    },
+    "cloudflare": {
+      "description": "Protection DDoS et CDN pour une sécurité et des performances optimales."
+    },
+    "becomePartner": {
+      "title": "Devenir Partenaire",
+      "description": "Vous souhaitez rejoindre notre écosystème de partenaires ? Contactez-nous pour discuter des opportunités de collaboration.",
+      "contactButton": "Nous Contacter",
+      "resourcesButton": "Ressources Graphiques"
+    }
+  },
+  "offers": {
+    "title": "Nos Offres d'Hébergement",
+    "subtitle": "Des solutions adaptées à tous vos besoins",
+    "button": "Commander",
+    "vps": {
+      "title": "VPS Cloud",
+      "description": "Serveurs virtuels haute performance avec ressources garanties",
+      "features": [
+        "Processeurs dernière génération",
+        "Disques NVMe ultra-rapides",
+        "Bande passante garantie",
+        "Protection DDoS incluse"
+      ]
+    },
+    "gaming": {
+      "title": "Serveurs de Jeux",
+      "description": "Hébergement optimisé pour vos serveurs de jeux préférés",
+      "features": [
+        "Configuration en 1 clic",
+        "Anti-DDoS Gaming",
+        "Support 24/7",
+        "Panel de contrôle intuitif"
+      ]
+    },
+    "web": {
+      "title": "Hébergement Web",
+      "description": "Solutions d'hébergement web performantes et sécurisées",
+      "features": [
+        "SSL gratuit",
+        "Bases de données illimitées",
+        "Sauvegarde quotidienne",
+        "Support technique expert"
+      ]
+    }
+  }
+}

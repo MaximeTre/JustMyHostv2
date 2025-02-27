@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./img/logo-rond.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Primary Meta Tags -->
+    <title>JustMyHost - Hébergement VPS, Serveurs de Jeux & Offres Web</title>
+    <meta name="title" content="JustMyHost - Hébergement VPS, Serveurs de Jeux & Offres Web">
+    <meta name="description" content="JustMyHost vous propose des solutions d'hébergement VPS, des serveurs de jeux et des offres web performantes, adaptées à vos besoins à partir de 0,99€ par mois.">
+    <meta name="keywords" content="hébergement VPS, serveurs de jeux, hébergement web, solutions cloud, JustMyHost, minecraft, fivem, gmod">
+    <meta name="language" content="fr">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://justmyhost.fr">
+    <meta property="og:title" content="JustMyHost - Hébergement VPS, Serveurs de Jeux & Offres Web">
+    <meta property="og:description" content="JustMyHost vous propose des solutions d'hébergement VPS, des serveurs de jeux et des offres web performantes, adaptées à vos besoins à partir de 0,99€ par mois.">
+    <meta property="og:image" content="https://justmyhost.2xyz.fr/images/transparent.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://justmyhost.fr">
+    <meta property="twitter:title" content="JustMyHost - Hébergement VPS, Serveurs de Jeux & Offres Web">
+    <meta property="twitter:description" content="JustMyHost vous propose des solutions d'hébergement VPS, des serveurs de jeux et des offres web performantes, adaptées à vos besoins à partir de 0,99€ par mois.">
+    <meta property="twitter:image" content="https://justmyhost.2xyz.fr/images/transparent.png">
+
+    <!-- Additional Meta Tags -->
+    <meta name="theme-color" content="#1E40AF">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="JustMyHost">
+    <meta name="copyright" content="JustMyHost">
+
+    <!-- Analytics -->
+    <script defer src="https://cloud.umami.is/script.js" data-website-id="86d6b1fb-a3dd-4a7c-a7cf-13b44c823149"></script>
+    <!-- Matomo -->
+<script>
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//analystics.justmyhost.fr/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '1']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+
+
+  </head>
+  <script src="//code.tidio.co/ygeyqzce0l7mavpnqokeasfo5xwgmlsm.js" async></script>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+ 
+
+    <!-- Start Notification -->
+<div id="promoBanner" class="fixed inset-x-0 bottom-0 flex justify-center p-4 ">
+  <div class="flex flex-wrap items-center justify-between gap-4 w-full max-w-md sm:max-w-lg md:max-w-4xl bg-blue-600 rounded-lg shadow-lg p-4">
+    <p class="text-sm sm:text-base lg:text-lg font-medium text-center sm:text-left">
+      🎉 Profitez de <strong>-30% de réduction</strong> sur tous nos services !
+    </p>
+    <div class="flex items-center gap-2">
+      <button id="copyButton" onclick="copyCode()" class="shrink-0 rounded-lg bg-blue-500 text-white px-4 py-2 text-sm font-medium hover:bg-blue-600 transition">
+        Copier le code
+      </button>
+      <button aria-label="Fermer" onclick="closePromoBanner()" class="shrink-0 text-gray-500 hover:text-gray-700 transition">
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor">
+          <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd" />
+        </svg>
+      </button>
+    </div>
+  </div>
+</div>
+
+    
+<script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const promoBanner = document.getElementById("promoBanner");
+            const isBannerClosed = localStorage.getItem("promoBannerClosed");
+
+            // Affiche la bannière uniquement si elle n'a pas été fermée
+            if (!isBannerClosed) {
+                promoBanner.classList.remove("hidden");
+            }
+        });
+
+        function copyCode() {
+            navigator.clipboard.writeText('NOEL2024');
+            const copyButton = document.getElementById('copyButton');
+            copyButton.textContent = "Code copié !";
+            copyButton.classList.add('bg-green-500', 'hover:bg-green-600');
+
+            // Animation pour revenir au texte original après 2 secondes
+            setTimeout(() => {
+                copyButton.textContent = "Copier le code";
+                copyButton.classList.remove('bg-green-500', 'hover:bg-green-600');
+                copyButton.classList.add('bg-blue-500', 'hover:bg-blue-600');
+            }, 2000);
+        }
+
+        function closePromoBanner() {
+            const promoBanner = document.getElementById("promoBanner");
+            promoBanner.classList.add("hidden"); // Cache la bannière en ajoutant la classe "hidden"
+            localStorage.setItem("promoBannerClosed", "true"); // Stocke le consentement
+        }
+    </script>    
+    <!-- End Notification -->
+  </body>
+</html>
