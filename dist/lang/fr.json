@@ -101,13 +101,13 @@
     "subtitle": "Une infrastructure de pointe pour des performances optimales",
     "imageAlt": "Centre de données",
     "dataCenters": {
-      "title": "Data Centers Tier-III",
-      "description": "Infrastructure redondante et haute disponibilité"
+      "title": "Infrastructure Professionnelle",
+      "description": "Infrastructure redondante avec haute disponibilité et monitoring 24/7"
     },
     "features": {
       "enterpriseHardware": {
         "title": "Matériel Enterprise",
-        "description": "Processeurs dernière génération, stockage NVMe et réseau 10Gbps"
+        "description": "Processeurs dernière génération, stockage NVMe et réseau 8Gbps"
       },
       "security": {
         "title": "Sécurité Maximale",

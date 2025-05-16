@@ -5,57 +5,57 @@ export const standardPackages = {
   "multiGaming01": {
     "id": "multi-gaming-and-script-01",
     "name": "Multi-Gaming - 01",
-    "ram": "3 GB",
+    "ram": "3 GO DDR4",
     "CPU": 2,
-    "storage": "10 GB",
+    "storage": "10 GO",
     "price": 0.99
   },
   "multiGaming02": {
     "id": "multi-gaming-and-script-02",
     "name": "Multi-Gaming - 02",
-    "ram": "5 GB",
+    "ram": "5 GO DDR4",
     "CPU": 2,
-    "storage": "13 GB",
+    "storage": "13 GO",
     "price": 2.49
   },
   "multiGaming03": {
     "id": "multi-gaming-and-script-03",
     "name": "Multi-Gaming - 03",
-    "ram": "8 GB",
+    "ram": "8 GO DDR4",
     "CPU": 4,
-    "storage": "20 GB",
+    "storage": "20 GO",
     "price": 4.49
   },
   "multiGaming04": {
     "id": "multi-gaming-and-script-04",
     "name": "Multi-Gaming - 04",
-    "ram": "12 GB",
+    "ram": "12 GO DDR4",
     "CPU": 5,
-    "storage": "40 GB",
+    "storage": "40 GO",
     "price": 6.99
   },
   "multiGaming05": {
     "id": "multi-gaming-and-script-05",
     "name": "Multi-Gaming - 05",
-    "ram": "17 GB",
+    "ram": "17 GO DDR4",
     "CPU": 7,
-    "storage": "60 GB",
+    "storage": "60 GO",
     "price": 9.99
   },
   "multiGaming06": {
     "id": "multi-gaming-and-script-06",
     "name": "Multi-Gaming - 06",
-    "ram": "20 GB",
+    "ram": "20 GO DDR4",
     "CPU": 10,
-    "storage": "80 GB",
+    "storage": "80 GO",
     "price": 12.99
   },
   "multiGaming07": {
     "id": "multi-gaming-and-script-07",
     "name": "Multi-Gaming - 07",
-    "ram": "32 GB",
+    "ram": "32 GO DDR4",
     "CPU": 16,
-    "storage": "128 GB",
+    "storage": "128 GO",
     "price": 19.99
   }
 };

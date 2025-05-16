@@ -84,19 +84,14 @@ export default function Contact() {
               </motion.div>
             ))}
           </motion.div>
-
+            <br />
           <motion.div
             variants={containerVariants}
             initial="hidden"
             animate="show"
             className="max-w-3xl mx-auto"
           >
-            <motion.div variants={itemVariants}>
-              <h2 className="text-2xl font-bold mb-8 text-center">{t('contact.socialMediaTitle')}</h2>
-              <SocialLinks />
-            </motion.div>
-
-            <motion.div 
+          <motion.div 
               variants={itemVariants}
               className="mt-16 text-center"
             >
@@ -112,6 +107,17 @@ export default function Contact() {
                 <ExternalLink className="w-5 h-5 ml-2 transition-transform group-hover:translate-x-1" />
               </a>
             </motion.div>
+
+
+            <motion.div variants={itemVariants}>
+  <h2 className="text-2xl font-bold mb-8 text-center mt-12">
+    {t('contact.socialMediaTitle')}
+  </h2>
+  <SocialLinks />
+</motion.div>
+
+
+            
           </motion.div>
         </div>
       </div>

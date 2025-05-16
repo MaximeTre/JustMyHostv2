@@ -107,7 +107,7 @@
     "features": {
       "enterpriseHardware": {
         "title": "Enterprise Hardware",
-        "description": "Latest generation processors, NVMe storage, and 10Gbps network"
+        "description": "Latest generation processors, NVMe storage, and 8Gbps network"
       },
       "security": {
         "title": "Maximum Security",

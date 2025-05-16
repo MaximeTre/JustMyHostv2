@@ -107,7 +107,7 @@
     "features": {
       "enterpriseHardware": {
         "title": "Enterprise Hardware",
-        "description": "Latest generation processors, NVMe storage, and 10Gbps network"
+        "description": "Latest generation processors, NVMe storage, and 8Gbps network"
       },
       "security": {
         "title": "Maximum Security",
@@ -298,7 +298,7 @@
     "features": {
       "cpu": "2x Intel Xeon CPU E5-2667 v3 @3.60 GHz",
       "memory": "3072 MB",
-      "storage": "10 GB",gi
+      "storage": "10 GB",
       "bandwidth": "1Gbps",
       "ddos": "Anti-DDoS"
     }

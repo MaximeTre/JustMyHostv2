@@ -6,7 +6,7 @@ export const vpsData: Record<'kvm' | 'lxc', VpsOffer[]> = {
       id: 'kvm-starter',
       name: 'VPS KVM - Starter',
       processor: '2x Intel Xeon CPU E5-2667 v3 @3.60 GHz',
-      ram: '4096 MB',
+      ram: '4 GO DDR4',
       storage: '32 GO SSD',
       price: 3.49,
       orderUrl: 'https://my.justmyhost.fr/index.php?rp=/store/vps-kvm/kvm-starter'
@@ -15,7 +15,7 @@ export const vpsData: Record<'kvm' | 'lxc', VpsOffer[]> = {
       id: 'kvm-medium',
       name: 'VPS KVM - Medium',
       processor: '4x Intel Xeon CPU E5-2667 v3 @3.60 GHz',
-      ram: '8096 MB',
+      ram: '8 GO DDR4',
       storage: '64 GO SSD',
       price: 5.99,
       orderUrl: 'https://my.justmyhost.fr/index.php?rp=/store/vps-kvm/kvm-medium'
@@ -24,7 +24,7 @@ export const vpsData: Record<'kvm' | 'lxc', VpsOffer[]> = {
       id: 'kvm-pro',
       name: 'VPS KVM - Pro',
       processor: '8x Intel Xeon CPU E5-2667 v3 @3.60 GHz',
-      ram: '16096 MB',
+      ram: '16 GO DDR4',
       storage: '128 GO SSD',
       price: 8.99,
       orderUrl: 'https://my.justmyhost.fr/index.php?rp=/store/vps-kvm/kvm-pro'
@@ -33,7 +33,7 @@ export const vpsData: Record<'kvm' | 'lxc', VpsOffer[]> = {
       id: 'kvm-premium',
       name: 'VPS KVM - Premium',
       processor: '12x Intel Xeon CPU E5-2667 v3 @3.60 GHz',
-      ram: '32096 MB',
+      ram: '32 GO DDR4',
       storage: '256 GO SSD',
       price: 16.99,
       orderUrl: 'https://my.justmyhost.fr/index.php?rp=/store/vps-kvm/kvm-premium'
@@ -42,7 +42,7 @@ export const vpsData: Record<'kvm' | 'lxc', VpsOffer[]> = {
       id: 'kvm-ultime',
       name: 'VPS KVM - Ultime',
       processor: '20x Intel Xeon CPU E5-2667 v3 @3.60 GHz',
-      ram: '64096 MB',
+      ram: '64 GO DDR4',
       storage: '512 GO SSD',
       price: 29.99,
       orderUrl: 'https://my.justmyhost.fr/index.php?rp=/store/vps-kvm/kvm-ultime'
@@ -53,7 +53,7 @@ export const vpsData: Record<'kvm' | 'lxc', VpsOffer[]> = {
       id: 'lxc-starter',
       name: 'VPS - Starter',
       processor: '2x Intel Xeon CPU E5-2667 v3 @3.60 GHz',
-      ram: '4096 MB',
+      ram: '4 GO DDR4',
       storage: '32 GO SSD',
       price: 2.49,
       orderUrl: 'https://my.justmyhost.fr/index.php?rp=/store/vps/lxc-starter'
@@ -62,7 +62,7 @@ export const vpsData: Record<'kvm' | 'lxc', VpsOffer[]> = {
       id: 'lxc-medium',
       name: 'VPS - Medium',
       processor: '4x Intel Xeon CPU E5-2667 v3 @3.60 GHz',
-      ram: '8096 MB',
+      ram: '8 GO DDR4',
       storage: '64 GO SSD',
       price: 4.99,
       orderUrl: 'https://my.justmyhost.fr/index.php?rp=/store/vps/lxc-medium'
@@ -71,7 +71,7 @@ export const vpsData: Record<'kvm' | 'lxc', VpsOffer[]> = {
       id: 'lxc-pro',
       name: 'VPS - Pro',
       processor: '8x Intel Xeon CPU E5-2667 v3 @3.60 GHz',
-      ram: '16096 MB',
+      ram: '16 GO DDR4',
       storage: '128 GO SSD',
       price: 7.99,
       orderUrl: 'https://my.justmyhost.fr/index.php?rp=/store/vps/lxc-pro'
@@ -80,7 +80,7 @@ export const vpsData: Record<'kvm' | 'lxc', VpsOffer[]> = {
       id: 'lxc-premium',
       name: 'VPS - Premium',
       processor: '12x Intel Xeon CPU E5-2667 v3 @3.60 GHz',
-      ram: '32096 MB',
+      ram: '32 GO DDR4',
       storage: '256 GO SSD',
       price: 15.99,
       orderUrl: 'https://my.justmyhost.fr/index.php?rp=/store/vps/lxc-premium'
@@ -89,7 +89,7 @@ export const vpsData: Record<'kvm' | 'lxc', VpsOffer[]> = {
       id: 'lxc-ultime',
       name: 'VPS - Ultime',
       processor: '20x Intel Xeon CPU E5-2667 v3 @3.60 GHz',
-      ram: '64096 MB',
+      ram: '64 GO DDR4',
       storage: '512 GO SSD',
       price: 24.99,
       orderUrl: 'https://my.justmyhost.fr/index.php?rp=/store/vps/lxc-ultime'

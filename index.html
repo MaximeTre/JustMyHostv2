@@ -49,8 +49,37 @@
   })();
 </script>
 <!-- End Matomo Code -->
-
-
+<!-- résultat enrichie -->
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "JustMyHost",
+    "url": "https://justmyhost.fr",
+    "logo": "https://justmyhost.fr/images/transparent.png",
+    "sameAs": [
+      "https://www.tiktok.com/@justmyhost",
+      "https://discord.justmyhost.fr"
+      "https://www.instagram.com/justmyhost.fr/",
+      "https://twitter.com/justmyhost",
+      "https://fr.trustpilot.com/review/nanohost.fr"
+    ],
+    "description": "JustMyHost propose des serveurs VPS, jeux et web haute performance avec protection DDoS.",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.6",
+      "reviewCount": "48"
+    },
+    "review": {
+      "@type": "Review",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5"
+      }
+    }
+  }
+  </script>
+  
   </head>
   <script src="//code.tidio.co/ygeyqzce0l7mavpnqokeasfo5xwgmlsm.js" async></script>
   <body>
@@ -59,10 +88,11 @@
  
 
     <!-- Start Notification -->
+     <!--
 <div id="promoBanner" class="fixed inset-x-0 bottom-0 flex justify-center p-4 ">
   <div class="flex flex-wrap items-center justify-between gap-4 w-full max-w-md sm:max-w-lg md:max-w-4xl bg-blue-600 rounded-lg shadow-lg p-4">
     <p class="text-sm sm:text-base lg:text-lg font-medium text-center sm:text-left">
-      🎉 Profitez de <strong>-30% de réduction</strong> sur tous nos services !
+      🎉 pour les 1 ans de JustMyHost profitez de <strong>-50% de réduction</strong> sur tous nos services jusqu'au 16/04/25 !
     </p>
     <div class="flex items-center gap-2">
       <button id="copyButton" onclick="copyCode()" class="shrink-0 rounded-lg bg-blue-500 text-white px-4 py-2 text-sm font-medium hover:bg-blue-600 transition">
@@ -78,7 +108,7 @@
 </div>
 
     
-<script>
+ <script>
         document.addEventListener("DOMContentLoaded", () => {
             const promoBanner = document.getElementById("promoBanner");
             const isBannerClosed = localStorage.getItem("promoBannerClosed");
@@ -90,7 +120,7 @@
         });
 
         function copyCode() {
-            navigator.clipboard.writeText('NOEL2024');
+            navigator.clipboard.writeText('JMH1YEAR');
             const copyButton = document.getElementById('copyButton');
             copyButton.textContent = "Code copié !";
             copyButton.classList.add('bg-green-500', 'hover:bg-green-600');
@@ -109,6 +139,7 @@
             localStorage.setItem("promoBannerClosed", "true"); // Stocke le consentement
         }
     </script>    
+  -->
     <!-- End Notification -->
   </body>
 </html>

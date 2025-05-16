@@ -13,7 +13,7 @@ export default function TopHebergBadge() {
       whileHover={{ scale: 1.02 }}
       className="w-fit transition-transform duration-300 hover:shadow-lg hover:shadow-blue-900/20 rounded-lg overflow-hidden"
     >
-      <img src="https://www.top-heberg.com/badge/justmyhost-527?s=refer" width="250" alt="Top-heberg.com" />
+      <img src="https://share.justmyhost.fr/api/shares/top-heberg/files/bb2f7517-a8f9-4f49-9e12-5bafbc2a46d2?download=false" width="250" alt="Top-heberg.com" />
     </motion.a>
   );
 }
